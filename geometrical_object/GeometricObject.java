@@ -2,14 +2,14 @@ package geometrical_object;
 
 public class GeometricObject {
     // Data Field
-    private String color;
-    private String filled_color;
+    protected String color;
+    protected String filled_color;
     private static int jumlah;
 
     //Constructor
-    public GeometricObject(color,filled) {
+    public GeometricObject(String color,String filled) {
         this.color = color;
-        this.filled = filled;
+        this.filled_color = filled;
         this.jumlah++;
     }
 
