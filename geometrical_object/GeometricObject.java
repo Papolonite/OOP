@@ -34,6 +34,6 @@ public class GeometricObject {
 
     //Method
     public String numOfObjectInClass(){
-        return String.format("There are %f Object", this.jumlah);
+        return String.format("There are %s Object", Integer.toString(this.jumlah));
     }
 }
